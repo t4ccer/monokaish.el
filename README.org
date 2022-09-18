@@ -1,0 +1,37 @@
+* =monokaish.el=
+
+My theme losely based on monokai. Only graphical theme is configured.
+
+** Installation
+
+*** With =straight.el=
+
+#+begin_src emacs-lisp
+
+  (use-package autothemer
+    :ensure t
+    :config
+    (use-package monokaish.el
+      :ensure t
+      :straight
+      (:host github
+       :repo "t4ccer/monokaish.el"
+       :branch "main"
+       :files ("*.el"))
+      :config
+      (load-theme 'monokaish t)))
+
+#+end_src
+
+#+RESULTS:
+: t
+
+** License
+
+Copyright (C) 2022 Tomasz Maciosowski (t4ccer)
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
