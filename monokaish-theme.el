@@ -159,8 +159,8 @@
   ;; magit
   (magit-branch-local                (:foreground monokaish-blue))
   (magit-branch-current              (:foreground monokaish-green))
-  (magit-diff-added                  (:background monokaish-green-dull :foreground monokaish-black))
-  (magit-diff-removed                (:background monokaish-red-dull   :foreground monokaish-black))
+  (magit-diff-added                  (:foreground monokaish-green))
+  (magit-diff-removed                (:foreground monokaish-red))
   (magit-diff-hunk-heading           (:background monokaish-light-gray))
   (magit-diff-context                (:background monokaish-dark-gray))
   (magit-section-heading             (:foreground monokaish-blue))
