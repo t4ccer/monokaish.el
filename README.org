@@ -8,17 +8,19 @@ My theme losely based on monokai. Only graphical theme is configured.
 
 #+begin_src emacs-lisp
 
-  (straight-use-package 'autothemer
-      :ensure t
-      :config
-      (straight-use-package '(monokaish.el :host github :repo "t4ccer/monokaish.el")
-          :ensure t
-          :config
-          (load-theme 'monokaish t)))
+  (use-package autothemer
+    :ensure t)
+
+  (use-package monokaish-theme
+    :straight
+    ( :host github
+      :repo "t4ccer/monokaish.el"
+      :branch "main"
+      :files ("*.el")))
+
+  (load-theme 'monokaish t)
 
 #+end_src
-
-#+RESULTS:
 
 ** License
 
