@@ -193,5 +193,5 @@
 	       (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'monokaish)
-
+(provide 'monokaish-theme)
 ;;; monokaish-theme.el ends here
