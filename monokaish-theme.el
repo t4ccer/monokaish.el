@@ -46,7 +46,7 @@
 
  ;; Customize faces
  ((default             (:foreground monokaish-white :background monokaish-black))
-  (cursor              (:background monokaish-blue))
+  (cursor              (:background monokaish-purple))
   (region              (:foreground monokaish-black :background monokaish-blue))
   (highlight           (:inherit 'region))
   (isearch             (:inherit 'region))
@@ -61,6 +61,8 @@
   (mode-line-buffer-id (:foreground monokaish-blue :weight 'bold))
   (fringe              (:background monokaish-black :foreground monokaish-black))
 
+  (linum-relative-current-face (:foreground monokaish-blue :weight 'bold))
+  
   (rg-match-face       (:inherit 'region))
 
   (haskell-constructor-face (:foreground monokaish-blue))
@@ -151,11 +153,20 @@
   (success                    (:foreground monokaish-green :bold t))
   (warning                    (:foreground monokaish-purple :bold t))
 
+  ;; Rustic compilation
+  (rustic-compilation-error   (:foreground monokaish-red))
+  (rustic-compilation-warning (:foreground monokaish-yellow))
+  (rustic-compilation-info    (:foreground monokaish-blue))
+
   ;; lsp-io
   (lsp-ui-sideline-code-action (:foreground monokaish-blue))
   (lsp-rename-placeholder-face (:inherit 'custom-link))
   (lsp-ui-doc-url              (:inherit 'custom-link))
 
+  ;; hl-todo
+  (hl-todo (:inherit 'warning))
+  
+  
   ;; magit
   (magit-branch-local                (:foreground monokaish-blue))
   (magit-branch-current              (:foreground monokaish-green))
