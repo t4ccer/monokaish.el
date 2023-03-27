@@ -99,6 +99,7 @@
   (ivy-minibuffer-match-face-2 (:inherit 'ivy-minibuffer-match-face-1))
   (ivy-minibuffer-match-face-3 (:inherit 'ivy-minibuffer-match-face-1))
   (ivy-minibuffer-match-face-4 (:inherit 'ivy-minibuffer-match-face-1))
+  (ivy-highlight-face          (:inherit 'default))
   (ivy-confirm-face            (:foreground monokaish-green))
   (ivy-match-required-face     (:foreground monokaish-red))
   (ivy-remote                  (:foreground monokaish-blue))
