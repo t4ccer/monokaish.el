@@ -41,8 +41,7 @@
   (monokaish-red        "#f92672")
   (monokaish-red-dull   "#c15d81")
   (monokaish-green      "#a7e22e")
-  (monokaish-green-dull "#98b758")
-  )
+  (monokaish-green-dull "#98b758"))
 
  ;; Customize faces
  ((default             (:foreground monokaish-white :background monokaish-black))
@@ -165,7 +164,13 @@
 
   ;; hl-todo
   (hl-todo (:inherit 'warning))
-  
+
+  ;; company-mode
+  (company-tooltip           (:foreground monokaish-white))
+  (company-scrollbar-bg      (:background monokaish-gray))
+  (company-scrollbar-fg      (:background monokaish-black))
+  (company-tooltip-selection (:inherit    'ivy-current-match))
+  (company-tooltip-common    (:foreground monokaish-red))
   
   ;; magit
   (magit-branch-local                (:foreground monokaish-blue))
@@ -180,8 +185,7 @@
   (magit-diff-context-highlight      (:inherit    'magit-diff-context))  
   (magit-diff-hunk-heading-highlight (:inherit    'region))
   (magit-diff-removed-highlight      (:inherit    'magit-diff-removed))
-  (magit-diff-added-highlight        (:inherit    'magit-diff-added))
-  ))
+  (magit-diff-added-highlight        (:inherit    'magit-diff-added))))
 
 
 ;;;###autoload
