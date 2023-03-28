@@ -167,11 +167,14 @@
   (hl-todo (:inherit 'warning))
 
   ;; company-mode
-  (company-tooltip           (:foreground monokaish-white))
-  (company-scrollbar-bg      (:background monokaish-gray))
-  (company-scrollbar-fg      (:background monokaish-black))
-  (company-tooltip-selection (:inherit    'ivy-current-match))
-  (company-tooltip-common    (:foreground monokaish-red))
+  (company-tooltip                      (:foreground monokaish-white))
+  (company-scrollbar-bg                 (:background monokaish-black))
+  (company-scrollbar-fg                 (:background monokaish-black))
+  (company-tooltip-selection            (:inherit    'ivy-current-match))
+  (company-tooltip-common               (:foreground monokaish-blue))
+  (company-tooltip-common-selection     (:inherit    'company-tooltip-selection))
+  (company-tooltip-annotation           (:foreground monokaish-gray))
+  (company-tooltip-annotation-selection (:inherit    'company-tooltip-selection))
   
   ;; magit
   (magit-branch-local                (:foreground monokaish-blue))
