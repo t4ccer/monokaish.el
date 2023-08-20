@@ -175,6 +175,9 @@
   (company-tooltip-common-selection     (:inherit    'company-tooltip-selection))
   (company-tooltip-annotation           (:foreground monokaish-gray))
   (company-tooltip-annotation-selection (:inherit    'company-tooltip-selection))
+
+  (diff-refine-added   (:foreground monokaish-black :background monokaish-green))
+  (diff-refine-removed (:foreground monokaish-white :background monokaish-red))
   
   ;; magit
   (magit-branch-local                (:foreground monokaish-blue))
