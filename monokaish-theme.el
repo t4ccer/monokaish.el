@@ -61,7 +61,7 @@
   (fringe              (:background monokaish-black :foreground monokaish-black))
 
   (linum-relative-current-face (:foreground monokaish-blue :weight 'bold))
-  
+
   (rg-match-face       (:inherit 'region))
 
   (haskell-constructor-face (:foreground monokaish-blue))
@@ -178,7 +178,7 @@
 
   (diff-refine-added   (:foreground monokaish-black :background monokaish-green))
   (diff-refine-removed (:foreground monokaish-white :background monokaish-red))
-  
+
   ;; magit
   (magit-branch-local                (:foreground monokaish-blue))
   (magit-branch-current              (:foreground monokaish-green))
@@ -189,7 +189,7 @@
   (magit-section-heading             (:foreground monokaish-blue))
   (magit-branch-remote               (:inherit    'magit-branch-local))
   (magit-branch-remote-head          (:inhert     'magit-branch-current))
-  (magit-diff-context-highlight      (:inherit    'magit-diff-context))  
+  (magit-diff-context-highlight      (:inherit    'magit-diff-context))
   (magit-diff-hunk-heading-highlight (:inherit    'region))
   (magit-diff-removed-highlight      (:inherit    'magit-diff-removed))
   (magit-diff-added-highlight        (:inherit    'magit-diff-added))))
@@ -201,7 +201,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name)))
   (add-to-list 'load-path
-	       (file-name-as-directory (file-name-directory load-file-name))))
+               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'monokaish)
 (provide 'monokaish-theme)
