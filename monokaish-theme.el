@@ -176,14 +176,18 @@
   (company-tooltip-annotation           (:foreground monokaish-gray))
   (company-tooltip-annotation-selection (:inherit    'company-tooltip-selection))
 
-  (diff-refine-added   (:foreground monokaish-black :background monokaish-green))
-  (diff-refine-removed (:foreground monokaish-white :background monokaish-red))
+  (diff-added             (:foreground monokaish-green))
+  (diff-indicator-added   (:inherit    'diff-added))
+  (diff-refine-added      (:foreground monokaish-black :background monokaish-green))
+  (diff-removed           (:foreground monokaish-red))
+  (diff-indicator-removed (:inherit    'diff-removed))
+  (diff-refine-removed    (:foreground monokaish-white :background monokaish-red))
 
   ;; magit
   (magit-branch-local                (:foreground monokaish-blue))
   (magit-branch-current              (:foreground monokaish-green))
-  (magit-diff-added                  (:foreground monokaish-green))
-  (magit-diff-removed                (:foreground monokaish-red))
+  (magit-diff-added                  (:inherit    'diff-added))
+  (magit-diff-removed                (:inherit    'diff-removed))
   (magit-diff-hunk-heading           (:background monokaish-light-gray))
   (magit-diff-context                (:background monokaish-dark-gray))
   (magit-section-heading             (:foreground monokaish-blue))
