@@ -196,8 +196,14 @@
   (magit-diff-context-highlight      (:inherit    'magit-diff-context))
   (magit-diff-hunk-heading-highlight (:inherit    'region))
   (magit-diff-removed-highlight      (:inherit    'magit-diff-removed))
-  (magit-diff-added-highlight        (:inherit    'magit-diff-added))))
+  (magit-diff-added-highlight        (:inherit    'magit-diff-added))
 
+  (font-latex-sectioning-0-face (:foreground monokaish-blue))
+  (font-latex-sectioning-1-face (:inherit    'font-latex-sectioning-0-face))
+  (font-latex-sectioning-2-face (:inherit    'font-latex-sectioning-0-face))
+  (font-latex-sectioning-3-face (:inherit    'font-latex-sectioning-0-face))
+  (font-latex-sectioning-4-face (:inherit    'font-latex-sectioning-0-face))
+  (font-latex-sectioning-5-face (:inherit    'font-latex-sectioning-0-face))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path)
