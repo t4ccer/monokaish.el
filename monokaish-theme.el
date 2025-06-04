@@ -205,7 +205,10 @@
   (magit-branch-local                (:foreground monokaish-blue))
   (magit-branch-current              (:foreground monokaish-green))
   (magit-diff-added                  (:inherit    'diff-added))
+  (magit-diffstat-added              (:inherit    'diff-added))
+
   (magit-diff-removed                (:inherit    'diff-removed))
+  (magit-diffstat-removed            (:inherit    'diff-removed))
   (magit-diff-hunk-heading           (:background monokaish-light-gray))
   (magit-diff-context                (:background monokaish-dark-gray))
   (magit-section-heading             (:foreground monokaish-blue))
