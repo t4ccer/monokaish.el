@@ -219,6 +219,23 @@
   (magit-diff-removed-highlight      (:inherit    'magit-diff-removed))
   (magit-diff-added-highlight        (:inherit    'magit-diff-added))
 
+  (gnus-header-name    (:foreground monokaish-blue))
+  (gnus-header-content (:inherit 'default))
+  (gnus-header-from    (:inherit 'default))
+  (gnus-header-subject (:inherit 'default))
+
+  (message-header-name    (:foreground monokaish-blue))
+  (message-header-to      (:foreground monokaish-orange))
+  (message-header-cc      (:inherit 'message-header-to))
+  (message-header-subject (:foreground monokaish-green))
+  (message-header-other   (:inherit 'default))
+  (message-separator      (:inherit 'font-lock-comment-face))
+
+  (mu4e-header-key-face       (:inherit 'default))
+  (mu4e-title-face            (:inherit 'default))
+  (mu4e-highlight-face        (:foreground monokaish-blue))
+  (mu4e-header-highlight-face (:inherit 'highlight))
+
   (font-latex-sectioning-0-face (:foreground monokaish-blue))
   (font-latex-sectioning-1-face (:inherit    'font-latex-sectioning-0-face))
   (font-latex-sectioning-2-face (:inherit    'font-latex-sectioning-0-face))
