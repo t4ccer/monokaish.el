@@ -102,6 +102,8 @@
   (font-lock-variable-name-face (:foreground monokaish-white))
   (font-lock-warning-face       (:foreground monokaish-red :bold t))
 
+  (help-key-binding (:foreground monokaish-blue))
+
   ;; MODE SUPPORT: smerge
   (smerge-upper           (:background monokaish-red-dull))
   (smerge-lower           (:background monokaish-green-dull))
