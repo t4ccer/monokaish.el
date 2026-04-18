@@ -183,6 +183,9 @@
   (lsp-rename-placeholder-face (:inherit 'custom-link))
   (lsp-ui-doc-url              (:inherit 'custom-link))
 
+  (flymake-posframe-face                (:foreground monokaish-white :background monokaish-dark-gray))
+  (flymake-posframe-border-face         (:background monokaish-gray))
+
   ;; hl-todo
   (hl-todo (:inherit 'warning))
 
@@ -244,6 +247,13 @@
   (font-latex-sectioning-3-face (:inherit    'font-latex-sectioning-0-face))
   (font-latex-sectioning-4-face (:inherit    'font-latex-sectioning-0-face))
   (font-latex-sectioning-5-face (:inherit    'font-latex-sectioning-0-face))))
+
+(setq flymake-posframe-internal-border-width 3)
+(setq flymake-posframe-warning-prefix "")
+(setq flymake-posframe-error-prefix "")
+(setq flymake-posframe-note-prefix "")
+(setq flymake-posframe-default-prefix "")
+(setq flymake-posframe-parameters nil)
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path)
