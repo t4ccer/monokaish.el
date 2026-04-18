@@ -241,6 +241,7 @@
   (mu4e-highlight-face        (:foreground monokaish-blue))
   (mu4e-header-highlight-face (:inherit 'highlight))
 
+  (font-latex-math-face         (:foreground monokaish-orange))
   (font-latex-sectioning-0-face (:foreground monokaish-blue))
   (font-latex-sectioning-1-face (:inherit    'font-latex-sectioning-0-face))
   (font-latex-sectioning-2-face (:inherit    'font-latex-sectioning-0-face))
